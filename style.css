@@ -67,3 +67,43 @@
     width: 60px;
     height: 20px;
 }
+
+/* inizio soluzione esercizio */
+/* es1 */
+.ex-1-square:hover {
+    background-color: red;
+}
+.ex-1-square {
+    transition: background-color 2s;
+}
+/* es2 */
+.ex-2-square:active {
+    width: 100%;
+}
+.ex-2-square {
+    transition: width 2s;
+}
+/* es3 */
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+.ex-3-square {
+    transition: border-radius 1s;
+}
+/* es4 */
+.ex-4-square:hover {
+    background-color: transparent;
+}
+.ex-4-square {
+    transition: background-color 1s;
+}
+/* es5 */
+.ex-5-square:hover {
+    transform: scale(2, 2);
+}
+.ex-5-square:active {
+    transform: scale(0.5, 0.5);
+}
+.ex-5-square {
+    transition: transform 1s;
+}
