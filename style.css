@@ -107,3 +107,31 @@
 .ex-5-square {
     transition: transform 1s;
 }
+/* es6 */
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+/* es7 */
+.ex-7-img:hover {
+    filter: sepia(70%) grayscale(50%);
+}
+.ex-7-img {
+    transition: filter 2s;
+}
+/* es8 */
+.ex-8-img:hover {
+    filter: grayscale(30%) saturate(50%);
+    border-radius: 20px;
+}
+.ex-8-img {
+    transition: all 2s;
+}
+/* es9 */
+.ex-9-img:hover {
+    filter: sepia(50%) saturate(50%);
+    border-radius: 20px;
+    transform: scale(1.5, 1.5);
+}
+.ex-9-img {
+    transition: all 2s;
+}
